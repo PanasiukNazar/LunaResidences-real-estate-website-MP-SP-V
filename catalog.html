@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>LunaResidences</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="keywords" />
+        <meta content="" name="description" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600&family=Roboto&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <link rel="shortcut icon" href="img/logo.png" type="image/x-icon" />
+
+        <!-- Libraries Stylesheet -->
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.0/build/css/intlTelInput.css"
+        />
+        <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.0/build/js/intlTelInput.min.js"></script>
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div class="spinner-grow text-primary" role="status"></div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar start -->
+        <div class="container-fluid fixed-top px-0">
+            <div class="container px-0">
+                <nav class="navbar navbar-light bg-light navbar-expand-xl">
+                    <a href="index.html" class="navbar-brand ms-3">
+                        <h1 class="text-primary display-5">LunaResidences</h1>
+                    </a>
+                    <button
+                        class="navbar-toggler py-2 px-3 me-3"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarCollapse"
+                    >
+                        <span class="fa fa-bars text-primary"></span>
+                    </button>
+                    <div
+                        class="collapse navbar-collapse bg-light"
+                        id="navbarCollapse"
+                    >
+                        <div class="navbar-nav ms-auto">
+                            <a href="index.html" class="nav-item nav-link"
+                                >Inicio</a
+                            >
+                            <a href="about.html" class="nav-item nav-link"
+                                >Sobre Nosotros</a
+                            >
+                            <a
+                                href="catalog.html"
+                                class="nav-item nav-link active"
+                                >Catálogo</a
+                            >
+                            <a href="contact.html" class="nav-item nav-link"
+                                >Contacto</a
+                            >
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar End -->
+
+        <!-- Header Start -->
+        <div class="container-fluid bg-breadcrumb">
+            <div class="container text-center py-5" style="max-width: 900px">
+                <h3 class="text-white display-3 mb-4">Catálogo</h3>
+                <ol class="breadcrumb justify-content-center mb-0">
+                    <li class="breadcrumb-item">
+                        <a href="index.html">Inicio</a>
+                    </li>
+                    <li class="breadcrumb-item active text-white">Catálogo</li>
+                </ol>
+            </div>
+        </div>
+        <!-- Header End -->
+
+        <!-- Blog Start -->
+        <div class="container py-5">
+            <div class="container-fluid blog py-5 mb-5">
+                <div class="text-center mx-auto pb-5" style="max-width: 800px">
+                    <h5 class="text-uppercase text-primary">
+                        Nuestro Catálogo
+                    </h5>
+                    <h1 class="mb-4">Propiedades en Venta</h1>
+                    <p>
+                        En nuestra agencia inmobiliaria, le ofrecemos una amplia
+                        selección de propiedades en toda España,
+                        especializándonos en la compra y venta de casas y
+                        apartamentos. Con más de 15 años de experiencia en el
+                        sector, nuestro catálogo incluye una variedad de
+                        opciones que se adaptan a todos los gustos y
+                        presupuestos. Ya sea que esté buscando su primera
+                        vivienda, una propiedad para inversión o una casa de
+                        lujo, tenemos lo que necesita. Trabajamos de cerca con
+                        nuestros clientes para garantizar que encuentren la
+                        propiedad ideal, ofreciéndoles asesoramiento profesional
+                        en cada paso del proceso. A continuación, encontrará una
+                        selección representativa de nuestras mejores propiedades
+                        disponibles. Cada propiedad ha sido cuidadosamente
+                        seleccionada para cumplir con los estándares más altos
+                        de calidad y ubicación, lo que le asegura una inversión
+                        segura y satisfactoria.
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-6 col-xl-4">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img
+                                    src="img/house-1.jpg"
+                                    class="img-fluid w-100"
+                                    alt="Education Image 1"
+                                />
+                                <div class="search-icon">
+                                    <a
+                                        href="img/house-1.jpg"
+                                        data-lightbox="Blog-1"
+                                        class="my-auto"
+                                    >
+                                        <i
+                                            class="fas fa-search-plus btn-primary text-white p-3"
+                                        ></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="text-dark border p-4 blog-content">
+                                <h4 class="mb-4">
+                                    Piso Moderno en el Centro de Madrid
+                                </h4>
+                                <p class="mb-4">
+                                    Ubicado en una de las zonas más cotizadas de
+                                    Madrid, este moderno apartamento de 2
+                                    habitaciones ofrece vistas impresionantes y
+                                    una ubicación inmejorable cerca de
+                                    restaurantes, tiendas y transporte público.
+                                </p>
+                                <a href="contact.html">
+                                    <button
+                                        class="btn-hover-bg btn btn-primary w-100 py-3 px-5"
+                                        type="submit"
+                                        id="submit"
+                                    >
+                                        Saber más
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-4">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img
+                                    src="img/house-3.jpg"
+                                    class="img-fluid w-100"
+                                    alt="Education Image 2"
+                                />
+                                <div class="search-icon">
+                                    <a
+                                        href="img/house-3.jpg"
+                                        data-lightbox="Blog-3"
+                                        class="my-auto"
+                                    >
+                                        <i
+                                            class="fas fa-search-plus btn-primary text-white p-3"
+                                        ></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="text-dark border p-4 blog-content">
+                                <h4 class="mb-4">Casa de Lujo en Marbella</h4>
+                                <p class="mb-4">
+                                    Una impresionante villa de lujo con 4
+                                    habitaciones, piscina privada y jardín.
+                                    Perfecta para aquellos que buscan un hogar
+                                    exclusivo y sofisticado en la Costa del Sol.
+                                </p>
+                                <a href="contact.html">
+                                    <button
+                                        class="btn-hover-bg btn btn-primary w-100 py-3 px-5"
+                                        type="submit"
+                                        id="submit"
+                                    >
+                                        Saber más
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-4">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img
+                                    src="img/house-4.jpg"
+                                    class="img-fluid w-100"
+                                    alt="Education Image 3"
+                                />
+
+                                <div class="search-icon">
+                                    <a
+                                        href="img/house-4.jpg"
+                                        data-lightbox="Blog-4"
+                                        class="my-auto"
+                                    >
+                                        <i
+                                            class="fas fa-search-plus btn-primary text-white p-3"
+                                        ></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="text-dark border p-4 blog-content">
+                                <h4 class="mb-4">
+                                    Apartamento con Vista al Mar en Barcelona
+                                </h4>
+                                <p class="mb-4">
+                                    Este hermoso apartamento de 3 habitaciones,
+                                    con vistas al mar Mediterráneo, ofrece un
+                                    ambiente tranquilo y relajado. Ideal para
+                                    quienes buscan un hogar cerca de la playa.
+                                </p>
+                                <a href="contact.html">
+                                    <button
+                                        class="btn-hover-bg btn btn-primary w-100 py-3 px-5"
+                                        type="submit"
+                                        id="submit"
+                                    >
+                                        Saber más
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-xl-4">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img
+                                    src="img/house-4.jpg"
+                                    class="img-fluid w-100"
+                                    alt="Education Image 1"
+                                />
+                                <div class="search-icon">
+                                    <a
+                                        href="img/house-4.jpg"
+                                        data-lightbox="Blog-1"
+                                        class="my-auto"
+                                    >
+                                        <i
+                                            class="fas fa-search-plus btn-primary text-white p-3"
+                                        ></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="text-dark border p-4 blog-content">
+                                <h4 class="mb-4">Chalet en la Costa Brava</h4>
+                                <p class="mb-4">
+                                    Un chalet independiente de 5 habitaciones en
+                                    una ubicación privilegiada en la Costa
+                                    Brava. Con jardín, piscina y vistas
+                                    panorámicas al mar, es la propiedad perfecta
+                                    para una familia que valore la privacidad.
+                                </p>
+                                <a href="contact.html">
+                                    <button
+                                        class="btn-hover-bg btn btn-primary w-100 py-3 px-5"
+                                        type="submit"
+                                        id="submit"
+                                    >
+                                        Saber más
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-4">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img
+                                    src="img/house-5.jpg"
+                                    class="img-fluid w-100"
+                                    alt="Education Image 2"
+                                />
+                                <div class="search-icon">
+                                    <a
+                                        href="img/house-5.jpg"
+                                        data-lightbox="Blog-3"
+                                        class="my-auto"
+                                    >
+                                        <i
+                                            class="fas fa-search-plus btn-primary text-white p-3"
+                                        ></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="text-dark border p-4 blog-content">
+                                <h4 class="mb-4">Piso Reformado en Valencia</h4>
+                                <p class="mb-4">
+                                    Piso de 2 habitaciones completamente
+                                    reformado, con acabados de alta calidad y en
+                                    una excelente ubicación. Ideal para jóvenes
+                                    profesionales que buscan un hogar moderno y
+                                    cómodo.
+                                </p>
+                                <a href="contact.html">
+                                    <button
+                                        class="btn-hover-bg btn btn-primary w-100 py-3 px-5"
+                                        type="submit"
+                                        id="submit"
+                                    >
+                                        Saber más
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-4">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img
+                                    src="img/house-6.jpg"
+                                    class="img-fluid w-100"
+                                    alt="Education Image 3"
+                                />
+
+                                <div class="search-icon">
+                                    <a
+                                        href="img/house-6.jpg"
+                                        data-lightbox="Blog-4"
+                                        class="my-auto"
+                                    >
+                                        <i
+                                            class="fas fa-search-plus btn-primary text-white p-3"
+                                        ></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="text-dark border p-4 blog-content">
+                                <h4 class="mb-4">Ático de Diseño en Sevilla</h4>
+                                <p class="mb-4">
+                                    Este ático moderno de 3 habitaciones en el
+                                    centro de Sevilla cuenta con terrazas
+                                    amplias y vistas impresionantes a la ciudad.
+                                    Un lugar ideal para disfrutar del sol y el
+                                    clima cálido de la región.
+                                </p>
+                                <a href="contact.html">
+                                    <button
+                                        class="btn-hover-bg btn btn-primary w-100 py-3 px-5"
+                                        type="submit"
+                                        id="submit"
+                                    >
+                                        Saber más
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-xl-4">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img
+                                    src="img/house-7.jpg"
+                                    class="img-fluid w-100"
+                                    alt="Education Image 1"
+                                />
+                                <div class="search-icon">
+                                    <a
+                                        href="img/house-7.jpg"
+                                        data-lightbox="Blog-1"
+                                        class="my-auto"
+                                    >
+                                        <i
+                                            class="fas fa-search-plus btn-primary text-white p-3"
+                                        ></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="text-dark border p-4 blog-content">
+                                <h4 class="mb-4">
+                                    Finca Rústica en Castilla y León
+                                </h4>
+                                <p class="mb-4">
+                                    Hermosa finca rústica de 10 hectáreas con
+                                    una casa de campo de 4 habitaciones.
+                                    Perfecta para los amantes de la naturaleza y
+                                    quienes buscan una vida tranquila en el
+                                    campo.
+                                </p>
+                                <a href="contact.html">
+                                    <button
+                                        class="btn-hover-bg btn btn-primary w-100 py-3 px-5"
+                                        type="submit"
+                                        id="submit"
+                                    >
+                                        Saber más
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-4">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img
+                                    src="img/house-8.jpg"
+                                    class="img-fluid w-100"
+                                    alt="Education Image 2"
+                                />
+                                <div class="search-icon">
+                                    <a
+                                        href="img/house-8.jpg"
+                                        data-lightbox="Blog-3"
+                                        class="my-auto"
+                                    >
+                                        <i
+                                            class="fas fa-search-plus btn-primary text-white p-3"
+                                        ></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="text-dark border p-4 blog-content">
+                                <h4 class="mb-4">Piso Familiar en Alicante</h4>
+                                <p class="mb-4">
+                                    Apartamento familiar de 3 habitaciones, con
+                                    piscina comunitaria y zona de juegos para
+                                    niños. Ubicado en una zona tranquila, ideal
+                                    para familias que buscan comodidad y
+                                    seguridad.
+                                </p>
+                                <a href="contact.html">
+                                    <button
+                                        class="btn-hover-bg btn btn-primary w-100 py-3 px-5"
+                                        type="submit"
+                                        id="submit"
+                                    >
+                                        Saber más
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-4">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img
+                                    src="img/house-9.jpg"
+                                    class="img-fluid w-100"
+                                    alt="Education Image 3"
+                                />
+
+                                <div class="search-icon">
+                                    <a
+                                        href="img/house-9.jpg"
+                                        data-lightbox="Blog-4"
+                                        class="my-auto"
+                                    >
+                                        <i
+                                            class="fas fa-search-plus btn-primary text-white p-3"
+                                        ></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="text-dark border p-4 blog-content">
+                                <h4 class="mb-4">Casa Adosada en Zaragoza</h4>
+                                <p class="mb-4">
+                                    Casa adosada de 4 habitaciones en un barrio
+                                    residencial tranquilo. Con jardín privado y
+                                    una amplia cocina, es una opción perfecta
+                                    para familias que buscan un hogar accesible
+                                    y cómodo.
+                                </p>
+                                <a href="contact.html">
+                                    <button
+                                        class="btn-hover-bg btn btn-primary w-100 py-3 px-5"
+                                        type="submit"
+                                        id="submit"
+                                    >
+                                        Saber más
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-xl-4">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img
+                                    src="img/house-10.jpg"
+                                    class="img-fluid w-100"
+                                    alt="Education Image 1"
+                                />
+                                <div class="search-icon">
+                                    <a
+                                        href="img/house-10.jpg"
+                                        data-lightbox="Blog-1"
+                                        class="my-auto"
+                                    >
+                                        <i
+                                            class="fas fa-search-plus btn-primary text-white p-3"
+                                        ></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="text-dark border p-4 blog-content">
+                                <h4 class="mb-4">
+                                    Piso en el Barrio Gótico de Barcelona
+                                </h4>
+                                <p class="mb-4">
+                                    Este elegante apartamento de 1 habitación
+                                    está situado en el corazón del histórico
+                                    Barrio Gótico de Barcelona. Con un diseño
+                                    contemporáneo y una ubicación céntrica, es
+                                    ideal para inversores o parejas jóvenes.
+                                </p>
+                                <a href="contact.html">
+                                    <button
+                                        class="btn-hover-bg btn btn-primary w-100 py-3 px-5"
+                                        type="submit"
+                                        id="submit"
+                                    >
+                                        Saber más
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-4">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img
+                                    src="img/house-11.jpg"
+                                    class="img-fluid w-100"
+                                    alt="Education Image 2"
+                                />
+                                <div class="search-icon">
+                                    <a
+                                        href="img/house-11.jpg"
+                                        data-lightbox="Blog-3"
+                                        class="my-auto"
+                                    >
+                                        <i
+                                            class="fas fa-search-plus btn-primary text-white p-3"
+                                        ></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="text-dark border p-4 blog-content">
+                                <h4 class="mb-4">
+                                    Villa en las Afueras de Madrid
+                                </h4>
+                                <p class="mb-4">
+                                    Esta villa de 5 habitaciones está ubicada en
+                                    una tranquila zona residencial en las
+                                    afueras de Madrid, con grandes espacios
+                                    exteriores y piscina privada. Un lugar
+                                    perfecto para quienes buscan una combinación
+                                    de confort y tranquilidad cerca de la
+                                    capital.
+                                </p>
+                                <a href="contact.html">
+                                    <button
+                                        class="btn-hover-bg btn btn-primary w-100 py-3 px-5"
+                                        type="submit"
+                                        id="submit"
+                                    >
+                                        Saber más
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-4">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img
+                                    src="img/house-12.jpg"
+                                    class="img-fluid w-100"
+                                    alt="Education Image 3"
+                                />
+
+                                <div class="search-icon">
+                                    <a
+                                        href="img/house-12.jpg"
+                                        data-lightbox="Blog-4"
+                                        class="my-auto"
+                                    >
+                                        <i
+                                            class="fas fa-search-plus btn-primary text-white p-3"
+                                        ></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="text-dark border p-4 blog-content">
+                                <h4 class="mb-4">
+                                    Apartamento en la Playa de Valencia
+                                </h4>
+                                <p class="mb-4">
+                                    Apartamento de 2 habitaciones con vistas al
+                                    mar, ubicado a pocos pasos de la playa de
+                                    Valencia. Ideal para quienes desean
+                                    disfrutar del estilo de vida playero y estar
+                                    cerca de todos los servicios.
+                                </p>
+                                <a href="contact.html">
+                                    <button
+                                        class="btn-hover-bg btn btn-primary w-100 py-3 px-5"
+                                        type="submit"
+                                        id="submit"
+                                    >
+                                        Saber más
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Blog End -->
+
+        <!-- Footer Start -->
+        <div class="container-fluid footer bg-dark text-body py-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-6 col-xl-4">
+                        <div class="footer-item">
+                            <h4 class="mb-4 text-white">LunaResidences</h4>
+                            <p class="mb-4">
+                                Al final de cada visita a nuestro sitio, nos
+                                complace compartir información clave y recursos
+                                que pueden ser útiles para usted. En la parte
+                                inferior de nuestras páginas, encontrará un
+                                resumen de nuestros contactos, enlaces a
+                                secciones importantes e información legal.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-4">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="mb-4 text-white">Enlaces Rápidos</h4>
+                            <a href="index.html"
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Inicio</a
+                            >
+                            <a href="terms-of-use.html"
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Términos de Uso</a
+                            >
+                            <a href="privacy-policy.html"
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Política de Privacidad</a
+                            >
+                            <a href="terms-of-use.html"
+                                ><i class="fas fa-angle-right me-2"></i> Modelo
+                                de Negocio</a
+                            >
+                            <a href="privacy-policy.html"
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Descargo de Responsabilidad</a
+                            >
+                            <a href="terms-of-use.html"
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Política de Cookies</a
+                            >
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-4">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="mb-4 text-white">Dirección</h4>
+                            <a href=""
+                                ><i class="fas fa-angle-right me-2"></i> Centro
+                                Comercial, Carretera Villamartín, 13 Los Dolses
+                                1, Unidad 115, 03189 Orihuela Costa, Alicante,
+                                España</a
+                            >
+                            <a href=""
+                                ><i class="fas fa-angle-right me-2"></i>
+                                +34966820228</a
+                            >
+                            <a href=""
+                                ><i class="fas fa-angle-right me-2"></i>
+                                luna_residences@gmail.com</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Consentimiento de Cookies</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Este sitio web utiliza
+                    <a href="cookie-policy.html">política de cookies</a> para
+                    ofrecerte una mejor y más relevante experiencia de
+                    navegación en la página web relacionada con la compra y
+                    venta de propiedades en España.
+                    <a href="privacy-policy.html">más información...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Aceptar</button>
+                <button class="cookie-button" id="declineBtn">Rechazar</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- Back to Top -->
+        <a
+            href="#"
+            class="btn btn-primary btn-primary-outline-0 btn-md-square back-to-top"
+            ><i class="fa fa-arrow-up"></i
+        ></a>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>

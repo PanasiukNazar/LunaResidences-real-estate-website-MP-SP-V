@@ -1,0 +1,1058 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>LunaResidences</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="keywords" />
+        <meta content="" name="description" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600&family=Roboto&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <link rel="shortcut icon" href="img/logo.png" type="image/x-icon" />
+
+        <!-- Libraries Stylesheet -->
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.0/build/css/intlTelInput.css"
+        />
+        <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.0/build/js/intlTelInput.min.js"></script>
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div class="spinner-grow text-primary" role="status"></div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar start -->
+        <div class="container-fluid fixed-top px-0">
+            <div class="container px-0">
+                <nav class="navbar navbar-light bg-light navbar-expand-xl">
+                    <a href="index.html" class="navbar-brand ms-3">
+                        <h1 class="text-primary display-5">LunaResidences</h1>
+                    </a>
+                    <button
+                        class="navbar-toggler py-2 px-3 me-3"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarCollapse"
+                    >
+                        <span class="fa fa-bars text-primary"></span>
+                    </button>
+                    <div
+                        class="collapse navbar-collapse bg-light"
+                        id="navbarCollapse"
+                    >
+                        <div class="navbar-nav ms-auto">
+                            <a
+                                href="index.html"
+                                class="nav-item nav-link active"
+                                >Inicio</a
+                            >
+                            <a href="about.html" class="nav-item nav-link"
+                                >Sobre Nosotros</a
+                            >
+                            <a href="catalog.html" class="nav-item nav-link"
+                                >Catálogo</a
+                            >
+                            <a href="contact.html" class="nav-item nav-link"
+                                >Contacto</a
+                            >
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar End -->
+
+        <!-- Carousel Start -->
+        <div class="container-fluid carousel-header vh-100 px-0">
+            <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li
+                        data-bs-target="#carouselId"
+                        data-bs-slide-to="0"
+                        class="active"
+                    ></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <img
+                            src="img/carousel-1.jpg"
+                            class="img-fluid"
+                            alt="Imagen"
+                        />
+                        <div class="carousel-caption">
+                            <div class="p-3" style="max-width: 900px">
+                                <h4
+                                    class="text-white text-uppercase fw-bold mb-4"
+                                    style="letter-spacing: 3px"
+                                >
+                                    Inmuebles en Venta
+                                </h4>
+                                <h1
+                                    class="display-1 text-capitalize text-white mb-4"
+                                >
+                                    Encuentra Tu Propiedad Ideal
+                                </h1>
+                                <p class="mb-5 fs-5">
+                                    Explora nuestras ofertas de propiedades en
+                                    toda España, desde modernos apartamentos en
+                                    la ciudad hasta villas de lujo en la costa.
+                                    Nuestro equipo de expertos está listo para
+                                    ayudarte a encontrar la vivienda de tus
+                                    sueños, ya sea que quieras comprar o vender.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img
+                            src="img/carousel-2.jpg"
+                            class="img-fluid"
+                            alt="Imagen"
+                        />
+                        <div class="carousel-caption">
+                            <div class="p-3" style="max-width: 900px">
+                                <h4
+                                    class="text-white text-uppercase fw-bold mb-4"
+                                    style="letter-spacing: 3px"
+                                >
+                                    Propiedades Exclusivas
+                                </h4>
+                                <h1
+                                    class="display-1 text-capitalize text-white mb-4"
+                                >
+                                    Vive en el Corazón de España
+                                </h1>
+                                <p class="mb-5 fs-5">
+                                    Descubre nuestras propiedades exclusivas en
+                                    las mejores zonas de España. Desde
+                                    apartamentos modernos hasta casas de lujo,
+                                    cada propiedad ha sido seleccionada para
+                                    ofrecerte comodidad, seguridad y estilo de
+                                    vida. Ponte en contacto con nosotros para
+                                    obtener más información.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img
+                            src="img/carousel-3.jpg"
+                            class="img-fluid"
+                            alt="Imagen"
+                        />
+                        <div class="carousel-caption">
+                            <div class="p-3" style="max-width: 900px">
+                                <h4
+                                    class="text-white text-uppercase fw-bold mb-4"
+                                    style="letter-spacing: 3px"
+                                >
+                                    Compra y Venta de Propiedades
+                                </h4>
+                                <h1
+                                    class="display-1 text-capitalize text-white mb-4"
+                                >
+                                    Tu Propiedad en el Mercado Español
+                                </h1>
+                                <p class="mb-5 fs-5">
+                                    Ya sea que busques comprar tu primera
+                                    vivienda o vender tu propiedad actual,
+                                    nuestro equipo de agentes inmobiliarios está
+                                    listo para ofrecerte el mejor servicio y
+                                    asesoramiento en cada paso del proceso.
+                                    Confía en nosotros para guiarte a través de
+                                    las transacciones más importantes de tu
+                                    vida.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselId"
+                    data-bs-slide="prev"
+                >
+                    <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselId"
+                    data-bs-slide="next"
+                >
+                    <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+        <!-- Approach Start -->
+        <div class="container-fluid about py-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-xl-5">
+                        <div class="h-100">
+                            <img
+                                src="img/approach-1.jpg"
+                                class="img-fluid w-100 h-100"
+                                alt="Imagen"
+                            />
+                        </div>
+                    </div>
+                    <div class="col-xl-7">
+                        <h5 class="text-uppercase text-primary">
+                            Transparencia y Calidad en Cada Propiedad
+                        </h5>
+                        <h1 class="mb-4">
+                            Nuestro Enfoque: Confianza en la Compra/Venta
+                        </h1>
+                        <p class="fs-5 mb-4">
+                            Creemos que tener acceso a información verificada e
+                            independiente es fundamental para tomar decisiones
+                            informadas sobre la compra o venta de propiedades.
+                            Nuestro enfoque se basa en principios de
+                            transparencia, calidad y responsabilidad. Nos
+                            enfocamos en la selección y análisis cuidadoso de
+                            los inmuebles, proporcionando una visión completa de
+                            las tendencias y desarrollos actuales en el mercado
+                            inmobiliario. Nuestro equipo está compuesto por
+                            expertos con un conocimiento profundo del mercado
+                            español. Cada propiedad que ofrecemos ha sido
+                            rigurosamente evaluada para asegurar que le
+                            brindemos información precisa y confiable. Nuestro
+                            objetivo no es solo informarle, sino también
+                            inspirarle a tomar decisiones que garanticen su
+                            inversión. Con nosotros, no solo obtiene lo último
+                            en propiedades, sino también un conocimiento
+                            profundo sobre las mejores opciones para usted.
+                            Únase a nosotros para ser parte de una comunidad
+                            inmobiliaria informada y acceder a las propiedades
+                            que realmente le interesan.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Approach End -->
+
+        <!-- Donation Start -->
+        <div class="container-fluid donation py-5 bg-light">
+            <div class="container py-5">
+                <div class="text-center mx-auto pb-5" style="max-width: 800px">
+                    <h5 class="text-uppercase text-primary">
+                        ¿Por Qué Elegirnos?
+                    </h5>
+                    <h1 class="mb-4">
+                        Objetividad, Confianza y Análisis Detallados
+                    </h1>
+                    <p>
+                        En el mundo actual, es crucial tener acceso a recursos
+                        inmobiliarios verificables y objetivos. Proporcionamos
+                        propiedades en las que puede confiar. Nuestro equipo se
+                        dedica a ofrecerle información detallada con un análisis
+                        profundo del mercado. Nuestro objetivo es ofrecerle
+                        recursos que no solo le informen, sino que también
+                        amplíen su comprensión sobre el mercado inmobiliario en
+                        España. Nos enorgullece ofrecerle información
+                        transparente y confiable, resultado de una investigación
+                        exhaustiva. Con nosotros, obtiene acceso a propiedades
+                        cuidadosamente seleccionadas que le ayudarán a tomar
+                        decisiones informadas sobre la compra o venta de su
+                        hogar.
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4">
+                        <div class="donation-item">
+                            <img
+                                src="img/donation-1.jpg"
+                                class="img-fluid w-100"
+                                alt="Imagen"
+                            />
+                            <div class="donation-content d-flex flex-column">
+                                <h5 class="text-uppercase text-primary mb-4">
+                                    Información Verificada
+                                </h5>
+                                <a
+                                    href="#"
+                                    class="btn-hover-color display-6 text-white"
+                                    >La Confianza es lo Primero</a
+                                >
+                                <p class="text-white mb-4">
+                                    Nos enorgullece proporcionar información
+                                    verificable sobre cada propiedad que
+                                    ofrecemos. Nuestro equipo investiga y
+                                    verifica cada recurso para asegurarse de que
+                                    la información sea precisa y confiable. Con
+                                    nosotros, puede estar seguro de que la
+                                    propiedad que le interesa es de alta calidad
+                                    y cumple con los estándares requeridos.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="donation-item">
+                            <img
+                                src="img/donation-2.jpg"
+                                class="img-fluid w-100"
+                                alt="Imagen"
+                            />
+                            <div class="donation-content d-flex flex-column">
+                                <h5 class="text-uppercase text-primary mb-4">
+                                    Análisis Detallado
+                                </h5>
+                                <a
+                                    href="#"
+                                    class="btn-hover-color display-6 text-white"
+                                >
+                                    Más que Información: Análisis y Contexto
+                                </a>
+                                <p class="text-white mb-4">
+                                    Ofrecemos no solo información actual, sino
+                                    también análisis detallados y contextuales
+                                    para ayudarle a comprender mejor las
+                                    complejidades del mercado inmobiliario.
+                                    Nuestros artículos ofrecen una visión
+                                    completa sobre las tendencias de compra y
+                                    venta en diversas zonas de España,
+                                    ayudándole a navegar por las cuestiones más
+                                    intrincadas del sector.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="donation-item">
+                            <img
+                                src="img/donation-3.jpg"
+                                class="img-fluid w-100"
+                                alt="Imagen"
+                            />
+                            <div class="donation-content d-flex flex-column">
+                                <h5 class="text-uppercase text-primary mb-4">
+                                    Equipo de Expertos
+                                </h5>
+                                <a
+                                    href="#"
+                                    class="btn-hover-color display-6 text-white"
+                                >
+                                    Conocimiento y Profesionalismo
+                                </a>
+                                <p class="text-white mb-4">
+                                    Nuestro equipo está formado por expertos en
+                                    el sector inmobiliario que aportan
+                                    conocimientos profundos y experiencia a cada
+                                    propiedad. Con nosotros, puede estar seguro
+                                    de que la información que recibe proviene de
+                                    profesionales que entienden el mercado y sus
+                                    complejidades.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Donation End -->
+
+        <!-- Counter Start -->
+        <div
+            class="container-fluid counter py-5"
+            style="
+                background: linear-gradient(
+                        rgba(0, 0, 0, 0.4),
+                        rgba(0, 0, 0, 0.4)
+                    ),
+                    url(img/volunteers-bg.jpg) center center;
+                background-size: cover;
+            "
+        >
+            <div class="container py-5">
+                <div class="text-center mx-auto pb-5" style="max-width: 800px">
+                    <h5 class="text-uppercase text-primary">
+                        El Camino hacia la Confianza y la Calidad
+                    </h5>
+                    <p class="text-white mb-0">
+                        Nos enorgullecemos de nuestros logros, que reflejan
+                        nuestro compromiso con proporcionar un servicio
+                        inmobiliario de calidad. Desde la satisfacción de
+                        nuestros clientes hasta el número creciente de
+                        propiedades vendidas, nuestros logros son un testamento
+                        a nuestros esfuerzos por la confiabilidad y la
+                        objetividad. Cada día, trabajamos para ofrecerle
+                        propiedades de calidad que se ajusten a sus necesidades
+                        y expectativas. Con nosotros, siempre estará informado
+                        sobre las últimas y más importantes oportunidades en el
+                        mercado inmobiliario.
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-6 col-xl-4">
+                        <div class="counter-item text-center border p-5">
+                            <i class="fas fa-thumbs-up fa-4x text-white"></i>
+                            <h3 class="text-white my-4">
+                                Clientes Satisfechos
+                            </h3>
+                            <div class="counter-counting">
+                                <span
+                                    class="text-primary fs-2 fw-bold"
+                                    data-toggle="counter-up"
+                                    >3600</span
+                                >
+                                <span class="h1 fw-bold text-primary">+</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-4">
+                        <div class="counter-item text-center border p-5">
+                            <i class="fas fa-book-open fa-4x text-white"></i>
+                            <h3 class="text-white my-4">
+                                Propiedades Vendidas
+                            </h3>
+                            <div
+                                class="counter-counting text-center border-white w-100"
+                                style="border-style: dotted; font-size: 30px"
+                            >
+                                <span
+                                    class="text-primary fs-2 fw-bold"
+                                    data-toggle="counter-up"
+                                    >513</span
+                                >
+                                <span class="h1 fw-bold text-primary">+</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-4">
+                        <div class="counter-item text-center border p-5">
+                            <i class="fas fa-calendar-alt fa-4x text-white"></i>
+                            <h3 class="text-white my-4">Años de experiencia</h3>
+                            <div
+                                class="counter-counting text-center border-white w-100"
+                                style="border-style: dotted; font-size: 30px"
+                            >
+                                <span
+                                    class="text-primary fs-2 fw-bold"
+                                    data-toggle="counter-up"
+                                    >12</span
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Counter End -->
+
+        <!-- Causes Start -->
+        <div class="container-fluid causes py-5">
+            <div class="container py-5">
+                <div class="text-center mx-auto pb-5" style="max-width: 800px">
+                    <h5 class="text-uppercase text-primary">Nuestra Galería</h5>
+                    <h1 class="mb-4">
+                        Descubre las Propiedades Más Exclusivas
+                    </h1>
+                    <p class="mb-0">
+                        Bienvenido a nuestra galería de propiedades. Aquí podrás
+                        explorar algunas de las mejores casas y apartamentos
+                        disponibles para la compra o venta en España. Ya sea que
+                        estés buscando una residencia de lujo en la costa o un
+                        acogedor apartamento en el corazón de la ciudad, tenemos
+                        opciones para todos los gustos y presupuestos. En
+                        nuestra agencia, nos especializamos en ofrecer
+                        propiedades de alta calidad que cumplen con los más
+                        altos estándares. Nuestro catálogo incluye viviendas de
+                        diferentes tamaños, ubicaciones y precios, para que
+                        puedas encontrar el hogar perfecto para ti y tu familia.
+                        A través de nuestra galería, puedes obtener una vista
+                        previa de algunas de las opciones más destacadas, y si
+                        alguna de ellas despierta tu interés, no dudes en
+                        ponerte en contacto con nosotros para obtener más
+                        detalles y concertar una visita.
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-6 col-xl-3">
+                        <div class="causes-item">
+                            <div class="causes-img">
+                                <img
+                                    src="img/causes-4.jpg"
+                                    class="img-fluid w-100"
+                                    alt="Image"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-3">
+                        <div class="causes-item">
+                            <div class="causes-img">
+                                <img
+                                    src="img/causes-2.jpg"
+                                    class="img-fluid w-100"
+                                    alt="Image"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-3">
+                        <div class="causes-item">
+                            <div class="causes-img">
+                                <img
+                                    src="img/causes-3.jpg"
+                                    class="img-fluid w-100"
+                                    alt="Image"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-3">
+                        <div class="causes-item">
+                            <div class="causes-img">
+                                <img
+                                    src="img/causes-1.jpg"
+                                    class="img-fluid w-100"
+                                    alt="Image"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Causes End -->
+
+        <!-- Testimonials Start -->
+        <div class="container-fluid blog py-5">
+            <div class="container py-5">
+                <div class="text-center mx-auto pb-5" style="max-width: 800px">
+                    <h5 class="text-uppercase text-primary">
+                        Lo que Dicen Nuestros Clientes
+                    </h5>
+                    <h1 class="mb-4">Experiencias de Nuestros Clientes</h1>
+                    <p>
+                        Nos enorgullece recibir comentarios positivos de
+                        nuestros clientes que aprecian la calidad y fiabilidad
+                        de nuestros servicios inmobiliarios. En esta sección,
+                        compartimos opiniones y experiencias de nuestros
+                        clientes sobre cómo nuestros servicios les han ayudado
+                        en la compra y venta de propiedades. Su opinión es
+                        importante para nosotros y nos motiva a seguir mejorando
+                        nuestros servicios.
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-6 col-xl-3">
+                        <div class="blog-item testimonial-item">
+                            <div class="blog-img">
+                                <img
+                                    src="img/client-1.jpg"
+                                    class="img-fluid w-100"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="text-dark border p-4">
+                                <h4 class="mb-4">Carlos Hernández</h4>
+                                <p class="mb-4">
+                                    "He comprado mi casa con esta agencia y el
+                                    proceso fue increíblemente fácil y
+                                    transparente. Los agentes me ayudaron en
+                                    cada paso, asegurándose de que entendiera
+                                    todo el proceso. Gracias a su experiencia,
+                                    pude encontrar la casa perfecta para mi
+                                    familia."
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-3">
+                        <div class="blog-item testimonial-item">
+                            <div class="blog-img">
+                                <img
+                                    src="img/client-2.jpg"
+                                    class="img-fluid w-100"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="text-dark border p-4">
+                                <h4 class="mb-4">Lucía Martínez</h4>
+                                <p class="mb-4">
+                                    "Vender mi apartamento fue una experiencia
+                                    sin complicaciones gracias a esta agencia.
+                                    Me dieron toda la información necesaria para
+                                    tomar decisiones informadas y el trato fue
+                                    siempre profesional y atento. ¡Recomiendo
+                                    totalmente sus servicios!"
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-3">
+                        <div class="blog-item testimonial-item">
+                            <div class="blog-img">
+                                <img
+                                    src="img/client-3.jpg"
+                                    class="img-fluid w-100"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="text-dark border p-4">
+                                <h4 class="mb-4">José García</h4>
+                                <p class="mb-4">
+                                    "Encontrar una casa en el mercado
+                                    competitivo de Madrid puede ser difícil,
+                                    pero esta agencia hizo que el proceso fuera
+                                    mucho más sencillo. Me proporcionaron
+                                    opciones que se adaptaban a mis necesidades
+                                    y presupuesto, y su asesoramiento fue clave
+                                    para tomar la decisión correcta."
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-3">
+                        <div class="blog-item testimonial-item">
+                            <div class="blog-img">
+                                <img
+                                    src="img/client-4.jpg"
+                                    class="img-fluid w-100"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="text-dark border p-4">
+                                <h4 class="mb-4">Ana López</h4>
+                                <p class="mb-4">
+                                    "El equipo fue excepcional al vender mi casa
+                                    en tiempo récord. Su conocimiento del
+                                    mercado y su profesionalismo hicieron toda
+                                    la diferencia. Estuve muy bien acompañada en
+                                    cada etapa del proceso, y el trato fue
+                                    siempre cercano y amable."
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonials End -->
+
+        <!-- Blog Start -->
+        <div class="container py-5">
+            <div class="container-fluid blog py-5 mb-5">
+                <div class="text-center mx-auto pb-5" style="max-width: 800px">
+                    <h5 class="text-uppercase text-primary">
+                        Nuestros Anuncios para la Venta de Casas
+                    </h5>
+                    <h1 class="mb-4">Encuentra Tu Nuevo Hogar en España</h1>
+                    <p>
+                        En nuestra agencia inmobiliaria, te ofrecemos las
+                        mejores oportunidades para comprar y vender casas y
+                        apartamentos en España. Nos enorgullece ofrecer una
+                        amplia variedad de propiedades en diferentes regiones,
+                        adaptadas a todos los estilos de vida y presupuestos. Ya
+                        sea que busques un apartamento moderno en la ciudad o
+                        una villa exclusiva en la costa, tenemos la opción ideal
+                        para ti. A continuación, te presentamos algunos de
+                        nuestros anuncios más destacados. Estos incluyen
+                        propiedades que han sido cuidadosamente seleccionadas
+                        para ofrecerte lo mejor en términos de calidad,
+                        ubicación y precio. Si alguna de estas propiedades te
+                        interesa, no dudes en contactarnos para obtener más
+                        información y coordinar una visita.
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-6 col-xl-4">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img
+                                    src="img/blog-1.jpg"
+                                    class="img-fluid w-100"
+                                    alt="Education Image 1"
+                                />
+                                <div class="search-icon">
+                                    <a
+                                        href="img/blog-1.jpg"
+                                        data-lightbox="Blog-1"
+                                        class="my-auto"
+                                    >
+                                        <i
+                                            class="fas fa-search-plus btn-primary text-white p-3"
+                                        ></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="text-dark border p-4 blog-content">
+                                <h4 class="mb-4">Casa de Lujo en Marbella</h4>
+                                <p class="mb-4">
+                                    Una impresionante villa con vistas
+                                    panorámicas al mar, ubicada en una de las
+                                    zonas más exclusivas de Marbella. Esta
+                                    propiedad cuenta con 5 dormitorios, 4 baños,
+                                    un amplio salón con chimenea y una piscina
+                                    privada. Ideal para quienes buscan lujo y
+                                    comodidad en un entorno inigualable.
+                                    Apartamento Moderno en Barcelona
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-4">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img
+                                    src="img/blog-3.jpg"
+                                    class="img-fluid w-100"
+                                    alt="Education Image 2"
+                                />
+                                <div class="search-icon">
+                                    <a
+                                        href="img/blog-3.jpg"
+                                        data-lightbox="Blog-3"
+                                        class="my-auto"
+                                    >
+                                        <i
+                                            class="fas fa-search-plus btn-primary text-white p-3"
+                                        ></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="text-dark border p-4 blog-content">
+                                <h4 class="mb-4">
+                                    Apartamento Moderno en Barcelona
+                                </h4>
+                                <p class="mb-4">
+                                    Un elegante apartamento en el centro de
+                                    Barcelona, con 3 habitaciones y 2 baños. Con
+                                    acabados de alta gama, este inmueble ofrece
+                                    un diseño contemporáneo con espacios
+                                    abiertos y luminosos. Perfecto para aquellos
+                                    que desean vivir en el corazón de la ciudad
+                                    condal.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-4">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img
+                                    src="img/blog-4.jpg"
+                                    class="img-fluid w-100"
+                                    alt="Education Image 3"
+                                />
+
+                                <div class="search-icon">
+                                    <a
+                                        href="img/blog-4.jpg"
+                                        data-lightbox="Blog-4"
+                                        class="my-auto"
+                                    >
+                                        <i
+                                            class="fas fa-search-plus btn-primary text-white p-3"
+                                        ></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="text-dark border p-4 blog-content">
+                                <h4 class="mb-4">Villa en la Costa Blanca</h4>
+                                <p class="mb-4">
+                                    Hermosa villa de 4 dormitorios con jardín
+                                    privado y vistas al mar en la Costa Blanca.
+                                    Esta propiedad está diseñada para ofrecer
+                                    confort y privacidad, con una amplia
+                                    terraza, piscina y un moderno diseño
+                                    interior. Ideal para disfrutar de la
+                                    tranquilidad y belleza de la costa española.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Blog End -->
+
+        <!-- Contact Start -->
+        <div class="container-fluid bg-light py-5">
+            <div class="container py-5">
+                <div class="contact p-5">
+                    <div class="row g-4">
+                        <div class="col-xl-5">
+                            <h1 class="mb-4">
+                                Póngase en Contacto con Nosotros
+                            </h1>
+                            <p class="mb-4">
+                                Nos encantaría conocer sus opiniones, preguntas
+                                o sugerencias. Estamos comprometidos a brindar a
+                                nuestros clientes la mejor experiencia posible.
+                                Si tiene alguna consulta, desea compartir su
+                                opinión o necesita más información, no dude en
+                                ponerse en contacto. Estamos aquí para ayudarle
+                                y responder a todas sus preguntas. Juntos
+                                podemos continuar construyendo una comunidad
+                                informada y comprometida.
+                            </p>
+                        </div>
+                        <div class="col-xl-7">
+                            <div>
+                                <form action="thanks.html" method="GET">
+                                    <div class="row gx-4 gy-3">
+                                        <div class="col-xl-6">
+                                            <input
+                                                type="text"
+                                                class="form-control bg-white border-0 py-3 px-4"
+                                                placeholder="Su Nombre"
+                                                required
+                                            />
+                                        </div>
+                                        <div class="col-xl-6">
+                                            <input
+                                                type="text"
+                                                class="form-control bg-white border-0 py-3 px-4"
+                                                placeholder="Su Apellido"
+                                                required
+                                            />
+                                        </div>
+                                        <div class="col-xl-6">
+                                            <input
+                                                type="email"
+                                                class="form-control bg-white border-0 py-3 px-4"
+                                                placeholder="Su Correo Electrónico"
+                                                id="email"
+                                                required
+                                            />
+                                        </div>
+                                        <div class="col-xl-6">
+                                            <input
+                                                required
+                                                style="width: 100% !important"
+                                                type="text"
+                                                inputmode="numeric"
+                                                pattern="^[0-9]+$"
+                                                class="form-control"
+                                                id="phone"
+                                                placeholder="Teléfono"
+                                            />
+                                        </div>
+                                        <div class="col-xl-12">
+                                            <select
+                                                name="Tipo de servicio"
+                                                aria-valuemax="tipo de servicio"
+                                                id=""
+                                                required
+                                            >
+                                                <option value="Consulta">
+                                                    Consulta
+                                                </option>
+                                                <option value="Compra">
+                                                    Compra
+                                                </option>
+                                                <option value="Venta">
+                                                    Venta
+                                                </option>
+                                                <option value="Valoración">
+                                                    Valoración
+                                                </option>
+                                            </select>
+                                        </div>
+                                        <div class="col-12">
+                                            <textarea
+                                                class="form-control bg-white border-0 py-3 px-4"
+                                                rows="7"
+                                                cols="10"
+                                                placeholder="Su Mensaje"
+                                                required
+                                            ></textarea>
+                                        </div>
+                                        <div class="col-12">
+                                            <button
+                                                class="btn btn-primary w-100 py-3 px-5"
+                                                type="submit"
+                                                id="submit"
+                                            >
+                                                Enviar
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact End -->
+
+        <!-- Footer Start -->
+        <div class="container-fluid footer bg-dark text-body py-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-6 col-xl-4">
+                        <div class="footer-item">
+                            <h4 class="mb-4 text-white">LunaResidences</h4>
+                            <p class="mb-4">
+                                Al final de cada visita a nuestro sitio, nos
+                                complace compartir información clave y recursos
+                                que pueden ser útiles para usted. En la parte
+                                inferior de nuestras páginas, encontrará un
+                                resumen de nuestros contactos, enlaces a
+                                secciones importantes e información legal.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-4">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="mb-4 text-white">Enlaces Rápidos</h4>
+                            <a href="index.html"
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Inicio</a
+                            >
+                            <a href="terms-of-use.html"
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Términos de Uso</a
+                            >
+                            <a href="privacy-policy.html"
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Política de Privacidad</a
+                            >
+                            <a href="terms-of-use.html"
+                                ><i class="fas fa-angle-right me-2"></i> Modelo
+                                de Negocio</a
+                            >
+                            <a href="privacy-policy.html"
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Descargo de Responsabilidad</a
+                            >
+                            <a href="terms-of-use.html"
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Política de Cookies</a
+                            >
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-4">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="mb-4 text-white">Dirección</h4>
+                            <a href=""
+                                ><i class="fas fa-angle-right me-2"></i> Centro
+                                Comercial, Carretera Villamartín, 13 Los Dolses
+                                1, Unidad 115, 03189 Orihuela Costa, Alicante,
+                                España</a
+                            >
+                            <a href=""
+                                ><i class="fas fa-angle-right me-2"></i>
+                                +34966820228</a
+                            >
+                            <a href=""
+                                ><i class="fas fa-angle-right me-2"></i>
+                                luna_residences@gmail.com</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Consentimiento de Cookies</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Este sitio web utiliza
+                    <a href="cookie-policy.html">política de cookies</a> para
+                    ofrecerte una mejor y más relevante experiencia de
+                    navegación en la página web relacionada con la compra y
+                    venta de propiedades en España.
+                    <a href="privacy-policy.html">más información...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Aceptar</button>
+                <button class="cookie-button" id="declineBtn">Rechazar</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- Back to Top -->
+        <a
+            href="#"
+            class="btn btn-primary btn-primary-outline-0 btn-md-square back-to-top"
+            ><i class="fa fa-arrow-up"></i
+        ></a>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/cookiebanner.js"></script>
+        <script>
+            const input = document.querySelector('#phone');
+            window.intlTelInput(input, {
+                loadUtils: () =>
+                    import(
+                        'https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.0/build/js/utils.js'
+                    ),
+            });
+        </script>
+    </body>
+</html>

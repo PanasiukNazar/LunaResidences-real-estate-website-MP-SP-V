@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>LunaResidences</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="keywords" />
+        <meta content="" name="description" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600&family=Roboto&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <link rel="shortcut icon" href="img/logo.png" type="image/x-icon" />
+
+        <!-- Libraries Stylesheet -->
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.0/build/css/intlTelInput.css"
+        />
+        <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.0/build/js/intlTelInput.min.js"></script>
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div class="spinner-grow text-primary" role="status"></div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar start -->
+        <div class="container-fluid fixed-top px-0">
+            <div class="container px-0">
+                <nav class="navbar navbar-light bg-light navbar-expand-xl">
+                    <a href="index.html" class="navbar-brand ms-3">
+                        <h1 class="text-primary display-5">LunaResidences</h1>
+                    </a>
+                    <button
+                        class="navbar-toggler py-2 px-3 me-3"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarCollapse"
+                    >
+                        <span class="fa fa-bars text-primary"></span>
+                    </button>
+                    <div
+                        class="collapse navbar-collapse bg-light"
+                        id="navbarCollapse"
+                    >
+                        <div class="navbar-nav ms-auto">
+                            <a href="index.html" class="nav-item nav-link"
+                                >Inicio</a
+                            >
+                            <a
+                                href="about.html"
+                                class="nav-item nav-link active"
+                                >Sobre Nosotros</a
+                            >
+                            <a href="catalog.html" class="nav-item nav-link"
+                                >Catálogo</a
+                            >
+                            <a href="contact.html" class="nav-item nav-link"
+                                >Contacto</a
+                            >
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar End -->
+
+        <!-- Header Start -->
+        <div class="container-fluid bg-breadcrumb">
+            <div class="container text-center py-5" style="max-width: 900px">
+                <h3 class="text-white display-3 mb-4">Sobre Nosotros</h3>
+                <ol class="breadcrumb justify-content-center mb-0">
+                    <li class="breadcrumb-item">
+                        <a href="index.html">Inicio</a>
+                    </li>
+                    <li class="breadcrumb-item active text-white">
+                        Sobre Nosotros
+                    </li>
+                </ol>
+            </div>
+        </div>
+        <!-- Header End -->
+
+        <!-- About Start -->
+        <div class="container-fluid about py-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-xl-5">
+                        <div class="h-100">
+                            <img
+                                src="img/about-1.jpg"
+                                class="img-fluid w-100 h-100"
+                                alt="Imagen"
+                                style="object-fit: cover"
+                            />
+                        </div>
+                    </div>
+                    <div class="col-xl-7">
+                        <h5 class="text-uppercase text-primary">
+                            Sobre Nosotros
+                        </h5>
+                        <h1 class="mb-4">
+                            Tu Socio Confiable en la Compra y Venta de Inmuebles
+                        </h1>
+                        <p class="fs-5 mb-4">
+                            Somos una agencia inmobiliaria líder en España,
+                            especializada en la compra y venta de casas y
+                            apartamentos. Nuestra misión es proporcionar a
+                            nuestros clientes un servicio confiable y
+                            profesional, asegurándonos de que cada transacción
+                            sea fluida, segura y satisfactoria.
+                        </p>
+                        <div class="tab-class bg-secondary p-4">
+                            <ul class="nav d-flex mb-2">
+                                <li class="nav-item mb-3">
+                                    <a
+                                        class="d-flex py-2 text-center bg-white active"
+                                        data-bs-toggle="pill"
+                                        href="#tab-1"
+                                    >
+                                        <span
+                                            class="text-dark"
+                                            style="width: 150px"
+                                            >Historia</span
+                                        >
+                                    </a>
+                                </li>
+                                <li class="nav-item mb-3">
+                                    <a
+                                        class="d-flex py-2 mx-3 text-center bg-white"
+                                        data-bs-toggle="pill"
+                                        href="#tab-2"
+                                    >
+                                        <span
+                                            class="text-dark"
+                                            style="width: 150px"
+                                            >El Propietario</span
+                                        >
+                                    </a>
+                                </li>
+                                <li class="nav-item mb-3">
+                                    <a
+                                        class="d-flex py-2 text-center bg-white"
+                                        data-bs-toggle="pill"
+                                        href="#tab-3"
+                                    >
+                                        <span
+                                            class="text-dark"
+                                            style="width: 150px"
+                                            >Nuestros Objetivos</span
+                                        >
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="tab-content">
+                                <div
+                                    id="tab-1"
+                                    class="tab-pane fade show p-0 active"
+                                >
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="d-flex">
+                                                <div class="text-start my-auto">
+                                                    <p class="mb-4">
+                                                        Nuestra agencia fue
+                                                        fundada hace más de 10
+                                                        años con el objetivo de
+                                                        ofrecer un servicio
+                                                        único y personalizado en
+                                                        el sector inmobiliario
+                                                        en España. A lo largo de
+                                                        los años, hemos ganado
+                                                        la confianza de nuestros
+                                                        clientes gracias a
+                                                        nuestra transparencia,
+                                                        profesionalismo y
+                                                        conocimiento del mercado
+                                                        local.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="tab-2" class="tab-pane fade show p-0">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="d-flex">
+                                                <div class="text-start my-auto">
+                                                    <p class="mb-4">
+                                                        Nuestro fundador, Javier
+                                                        Martínez, es un experto
+                                                        en el sector
+                                                        inmobiliario con más de
+                                                        20 años de experiencia.
+                                                        Javier ha trabajado con
+                                                        innumerables clientes en
+                                                        la compra y venta de
+                                                        propiedades en toda
+                                                        España, asegurando
+                                                        siempre la satisfacción
+                                                        total de cada uno. Su
+                                                        pasión por el sector y
+                                                        su dedicación al
+                                                        servicio al cliente son
+                                                        los pilares
+                                                        fundamentales de nuestra
+                                                        agencia.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="tab-3" class="tab-pane fade show p-0">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="d-flex">
+                                                <div class="text-start my-auto">
+                                                    <p class="mb-4">
+                                                        Nuestro objetivo es
+                                                        seguir expandiendo
+                                                        nuestra presencia en el
+                                                        mercado inmobiliario y
+                                                        mantenernos como una
+                                                        agencia de confianza
+                                                        para todos nuestros
+                                                        clientes. Trabajamos
+                                                        para hacer que la compra
+                                                        y venta de propiedades
+                                                        en España sea un proceso
+                                                        fácil y sin
+                                                        preocupaciones,
+                                                        ofreciendo asesoramiento
+                                                        y acompañamiento en cada
+                                                        paso.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-5 mt-5">
+                    <div class="col-xl-7">
+                        <h1 class="mb-4">
+                            Historia de la empresa, breve información sobre el
+                            propietario y objetivos
+                        </h1>
+                        <p class="fs-5 mb-4">
+                            Nuestra empresa, fundada hace más de 15 años, ha
+                            pasado de ser una pequeña agencia inmobiliaria
+                            familiar a uno de los nombres de mayor confianza en
+                            el mercado inmobiliario español. Nos especializamos
+                            en la compra y venta de casas y apartamentos en todo
+                            el país, ofreciendo a nuestros clientes una
+                            experiencia sin fisuras a través de nuestro profundo
+                            conocimiento del mercado y el compromiso con la
+                            satisfacción del cliente. A lo largo de los años,
+                            hemos ayudado a cientos de familias a encontrar la
+                            casa de sus sueños y hemos ayudado a inversores a
+                            conseguir propiedades lucrativas. La base de nuestro
+                            éxito radica en nuestros valores fundamentales:
+                            integridad, profesionalidad y un enfoque
+                            personalizado para cada transacción. Entendemos que
+                            la compra o venta de una propiedad es una de las
+                            decisiones financieras más importantes de la vida de
+                            una persona, y nos sentimos muy orgullosos de
+                            asegurar que nuestros clientes se sientan apoyados e
+                            informados en cada etapa del proceso. Nuestro
+                            dedicado equipo de profesionales inmobiliarios
+                            trabaja incansablemente para proporcionar
+                            información sobre el mercado, asesoramiento experto
+                            y un servicio personalizado. El propietario de la
+                            empresa, Javier Martínez, tiene una profunda pasión
+                            por el sector inmobiliario y una amplia experiencia
+                            en la gestión de propiedades. Con más de 20 años de
+                            experiencia en el sector, la dedicación y el
+                            liderazgo de Javier han desempeñado un papel clave
+                            en la construcción de una empresa en la que la gente
+                            confía. Su visión para la agencia es continuar
+                            ofreciendo servicios inmobiliarios de alta calidad
+                            con un enfoque en la transparencia, la eficiencia y
+                            la fiabilidad. Nuestro principal objetivo es seguir
+                            creciendo y ayudar a más clientes en España a
+                            encontrar su propiedad perfecta. Queremos ser
+                            conocidos por nuestra dedicación a la satisfacción
+                            del cliente, nuestro profundo conocimiento del
+                            mercado inmobiliario y nuestro compromiso de ofrecer
+                            un servicio excepcional en cada transacción. Tanto
+                            si está comprando su primera vivienda como si está
+                            vendiendo
+                        </p>
+                    </div>
+                    <div class="col-xl-5">
+                        <div class="h-100">
+                            <img
+                                src="img/about-2.jpg"
+                                class="img-fluid w-100 h-100"
+                                alt="Imagen"
+                                style="object-fit: cover"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Footer Start -->
+        <div class="container-fluid footer bg-dark text-body py-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-6 col-xl-4">
+                        <div class="footer-item">
+                            <h4 class="mb-4 text-white">LunaResidences</h4>
+                            <p class="mb-4">
+                                Al final de cada visita a nuestro sitio, nos
+                                complace compartir información clave y recursos
+                                que pueden ser útiles para usted. En la parte
+                                inferior de nuestras páginas, encontrará un
+                                resumen de nuestros contactos, enlaces a
+                                secciones importantes e información legal.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-4">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="mb-4 text-white">Enlaces Rápidos</h4>
+                            <a href="index.html"
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Inicio</a
+                            >
+                            <a href="terms-of-use.html"
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Términos de Uso</a
+                            >
+                            <a href="privacy-policy.html"
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Política de Privacidad</a
+                            >
+                            <a href="terms-of-use.html"
+                                ><i class="fas fa-angle-right me-2"></i> Modelo
+                                de Negocio</a
+                            >
+                            <a href="privacy-policy.html"
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Descargo de Responsabilidad</a
+                            >
+                            <a href="terms-of-use.html"
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Política de Cookies</a
+                            >
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-4">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="mb-4 text-white">Dirección</h4>
+                            <a href=""
+                                ><i class="fas fa-angle-right me-2"></i> Centro
+                                Comercial, Carretera Villamartín, 13 Los Dolses
+                                1, Unidad 115, 03189 Orihuela Costa, Alicante,
+                                España</a
+                            >
+                            <a href=""
+                                ><i class="fas fa-angle-right me-2"></i>
+                                +34966820228</a
+                            >
+                            <a href=""
+                                ><i class="fas fa-angle-right me-2"></i>
+                                luna_residences@gmail.com</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Consentimiento de Cookies</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Este sitio web utiliza
+                    <a href="cookie-policy.html">política de cookies</a> para
+                    ofrecerte una mejor y más relevante experiencia de
+                    navegación en la página web relacionada con la compra y
+                    venta de propiedades en España.
+                    <a href="privacy-policy.html">más información...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Aceptar</button>
+                <button class="cookie-button" id="declineBtn">Rechazar</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- Back to Top -->
+        <a
+            href="#"
+            class="btn btn-primary btn-primary-outline-0 btn-md-square back-to-top"
+            ><i class="fa fa-arrow-up"></i
+        ></a>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
